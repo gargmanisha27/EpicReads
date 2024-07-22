@@ -1,0 +1,56 @@
+.manage-books-container {
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  flex: 1; /* Makes the container take up remaining space */
+}
+
+.heading {
+  margin-bottom: 2rem;
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: bold; /* font-bold */
+}
+
+.books-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.books-table th, .books-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.books-table thead {
+  background-color: #f9fafb;
+}
+
+.books-table .book-title {
+  white-space: nowrap;
+  font-weight: 500; /* font-medium */
+}
+
+.edit-link {
+  color: #0891b2; /* text-cyan-600 */
+  text-decoration: none;
+}
+
+.edit-link:hover {
+  text-decoration: underline;
+}
+
+.delete-button {
+  background-color: #1d4ed8; /* blue-700 */
+  color: white;
+  padding: 0.5rem 1rem;
+  font-weight: 600; /* font-semibold */
+  border-radius: 0.25rem; /* rounded-sm */
+  border: none;
+  cursor: pointer;
+  margin-left: 1rem; /* Adds space between Edit and Delete */
+}
+
+.delete-button:hover {
+  background-color: #1e40af; /* blue-800 */
+}

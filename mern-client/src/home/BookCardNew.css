@@ -1,0 +1,30 @@
+/* Swiper container styling */
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  /* Swiper slide styling */
+  .swiper-slide {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    width: 280px; /* Adjusted width */
+    height: 400px; /* Adjusted height for better fit */
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #ddd; /* Optional border for visibility */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    overflow: hidden; /* Ensure no overflow */
+  }
+  
+  /* Image styling */
+  .swiper-slide img {
+    width: auto; /* Auto width */
+    height: 100%; /* Full height of the container */
+    max-width: 100%; /* Ensure image does not overflow */
+    object-fit: contain; /* Ensure full image is visible without distortion */
+  }
+  
